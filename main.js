@@ -75,7 +75,7 @@ function question5 () {
     }
   }
   for (var i = 0; i < eightPlusMaterials.length; i++) {
-    console.log(eightPlusMaterials[i].title);
+    console.log(eightPlusMaterials[i].title + " has " + eightPlusMaterials[i].materials.length + " materials:");
     for (var j = 0; j < eightPlusMaterials[i].materials.length; j++) {
       console.log("- " + eightPlusMaterials[i].materials[j]);
     }
@@ -93,5 +93,5 @@ function question6 () {
       artisans += 1;
     }
   }
-  console.log(artisans + " items were made by their sellers");
+  console.log(artisans + " items were made by their sellers.");
 }
